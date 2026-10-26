@@ -5,7 +5,7 @@
 <h3 align="center">Il registro di stazione per radioamatori, sul tuo computer.</h3>
 
 <p align="center">
-  HamDesk è un registro di stazione in italiano che si installa in locale su Windows: registri i collegamenti da tastiera, tieni d'occhio DXCC e premi, e sincronizzi LoTW, eQSL, QRZ.com e Club Log. I dati restano tuoi, sul tuo computer.
+  HamDesk è un registro di stazione in italiano che si installa in locale su Windows: registri i collegamenti da tastiera, tieni d'occhio DXCC e award, e sincronizzi LoTW, eQSL, QRZ.com e Club Log. I dati restano tuoi, sul tuo computer.
 </p>
 
 <p align="center">
@@ -54,7 +54,7 @@ Le immagini usano dati di esempio.
 
 - **Registro** veloce da tastiera, orari sempre in UTC, ricerca e filtri, import ed export ADIF, copie di sicurezza automatiche.
 - **QSL**: LoTW (tramite TQSL, la chiave privata resta lì), eQSL, QRZ.com e Club Log, con invio automatico e scarico delle conferme. I cinque stati QSL sono sempre scritti, non solo colorati.
-- **Dati derivati**: paesi DXCC, zone CQ e ITU, locatori, statistiche, premi (DXCC, WAS, VUCC…), mappa azimutale e classica.
+- **Dati derivati**: paesi DXCC, zone CQ e ITU, locatori, statistiche, award (DXCC, WAS, WAC, VUCC…), mappa azimutale e classica.
 - **In stazione**: Cluster DX con invio di spot e comandi, controllo della radio (CAT), satelliti ed EME, stampa delle etichette QSL in PDF, vista portatile.
 - **Temi** Carta e Notte, tutto usabile da tastiera.
 - **Database** SQLite (predefinito) o PostgreSQL, scelto in installazione.
@@ -64,7 +64,7 @@ Le immagini usano dati di esempio.
 1. Dalla pagina dell'[ultima versione](https://github.com/iw8ffg/hamdesk-releases/releases/latest) scarica `HamDesk-Setup-<versione>.exe` e `SHA256SUMS.txt`.
 2. **Verifica l'impronta** (consigliato). In PowerShell, nella cartella dei download:
    ```powershell
-   Get-FileHash .\HamDesk-Setup-1.0.4.exe -Algorithm SHA256
+   Get-FileHash .\HamDesk-Setup-1.0.5.exe -Algorithm SHA256
    Select-String -Path .\SHA256SUMS.txt -Pattern 'HamDesk-Setup'
    ```
    I due valori devono essere uguali.

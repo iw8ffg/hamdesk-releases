@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "version": "1.0.4",
-  "published_at": "2026-10-26T17:29:32Z",
-  "notes_it": "HamDesk 1.0.4: download dalla nuova pagina pubblica, avviso automatico delle versioni nuove, licenza freeware. Contiene anche le novità della 1.0.3: satelliti con l'elenco ufficiale LoTW, QSO già presenti su QRZ.com e LoTW riconosciuti, mappa 2D estesa con zoom e schermo intero, controllo del firewall per l'accesso da altri dispositivi.",
-  "page_url": "https://github.com/iw8ffg/hamdesk-releases/releases/tag/v1.0.4"
+  "version": "1.0.5",
+  "published_at": "2026-10-26T22:20:13Z",
+  "notes_it": "HamDesk 1.0.5: nuova grafica con logo e barra di stato; «Premi» diventa «Award» con il WAC e un catalogo da attivare in Impostazioni; Cluster DX con il paese nella riga dello spot e la console sotto la lista; «Riscarica tutte le conferme» immediato; LoTW: motivo dei rifiuti dal registro di TQSL e «Segna come già su LoTW»; QSL manager da un elenco tuo; avviso delle copie di sicurezza corretto.",
+  "page_url": "https://github.com/iw8ffg/hamdesk-releases/releases/tag/v1.0.5"
 }
