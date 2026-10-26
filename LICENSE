@@ -1,0 +1,57 @@
+HamDesk — Licenza d'uso (freeware)
+Copyright (c) 2026 Davide Scognamiglio, IW8FFG. Tutti i diritti riservati.
+
+HamDesk è distribuito gratuitamente come freeware. Il codice sorgente è riservato e non è
+incluso nella distribuzione.
+
+1. Concessione. Puoi installare e usare HamDesk gratuitamente, su qualunque numero di computer,
+   per uso personale e radioamatoriale, anche all'interno di associazioni, radio club e
+   spedizioni.
+
+2. Ridistribuzione. Puoi ridistribuire l'installer ufficiale solo così come è, integro, senza
+   modifiche e senza chiedere alcun compenso. Il canale ufficiale di distribuzione è
+   https://github.com/iw8ffg/hamdesk-releases: indica sempre quel collegamento.
+
+3. Limitazioni. Non puoi vendere HamDesk, noleggiarlo, concederlo in sublicenza, modificarlo,
+   decompilarlo, disassemblarlo o estrarne componenti (comprese le chiavi dei servizi incluse
+   nel programma), salvo quanto consentito espressamente dalla legge applicabile o dalle licenze
+   dei componenti di terzi indicate sotto.
+
+4. Componenti di terzi. HamDesk include componenti di terzi distribuiti con le proprie licenze
+   (elencate nel file NOTICE e in Impostazioni → Informazioni → Licenze di terze parti). Quelle
+   licenze restano valide per i rispettivi componenti e prevalgono su questa licenza per quanto
+   li riguarda. In particolare la libreria psycopg (LGPL-3.0) è inclusa come pacchetto separato
+   nella cartella del programma e puoi sostituirla con una versione compatibile.
+
+5. Servizi esterni. L'uso di LoTW, eQSL, QRZ.com, Club Log e degli altri servizi è soggetto ai
+   termini dei rispettivi gestori. HamDesk non è affiliato a nessuno di essi.
+
+6. Nessuna garanzia. HamDesk è fornito «così com'è», senza garanzie di alcun tipo, esplicite o
+   implicite, comprese quelle di commerciabilità, idoneità a uno scopo particolare e assenza di
+   violazioni. Fai copie di sicurezza dei tuoi dati.
+
+7. Limitazione di responsabilità. Nei limiti consentiti dalla legge, l'autore non è responsabile
+   di alcun danno, diretto o indiretto, derivante dall'uso o dall'impossibilità di usare HamDesk,
+   compresa la perdita di dati.
+
+8. Le versioni da 1.0.0 a 1.0.3 restano soggette alla licenza con cui sono state distribuite.
+   Questa licenza vale dalla versione 1.0.4.
+
+9. Legge applicabile. Questa licenza è regolata dalla legge italiana.
+
+---
+
+HamDesk — End-user licence (freeware), English summary
+
+Copyright (c) 2026 Davide Scognamiglio, IW8FFG. All rights reserved.
+
+HamDesk is free of charge (freeware); its source code is not distributed. You may install and
+use it on any number of computers for personal and amateur-radio use, including clubs and
+DXpeditions, and redistribute the official, unmodified installer free of charge, pointing to
+https://github.com/iw8ffg/hamdesk-releases. You may not sell, rent, sublicense, modify,
+decompile, disassemble or extract parts of it (including bundled service keys), except as
+permitted by applicable law or by the licences of the third-party components listed in NOTICE,
+which remain in force for those components (psycopg, LGPL-3.0, is shipped as a separate,
+replaceable package). HamDesk is provided "as is", without any warranty; to the extent permitted
+by law the author is not liable for any damage, including data loss. The Italian text above
+prevails. Italian law applies.
