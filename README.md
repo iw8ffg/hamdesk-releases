@@ -53,9 +53,11 @@ Le immagini usano dati di esempio.
 ## Cosa fa
 
 - **Registro** veloce da tastiera, orari sempre in UTC, ricerca e filtri, import ed export ADIF, copie di sicurezza automatiche.
-- **QSL**: LoTW (tramite TQSL, la chiave privata resta lì), eQSL, QRZ.com e Club Log, con invio automatico e scarico delle conferme. I cinque stati QSL sono sempre scritti, non solo colorati.
-- **Dati derivati**: paesi DXCC, zone CQ e ITU, locatori, statistiche, award (DXCC, WAS, WAC, VUCC…), mappa azimutale e classica.
-- **In stazione**: Cluster DX con invio di spot e comandi, controllo della radio (CAT), satelliti ed EME, stampa delle etichette QSL in PDF, vista portatile.
+- **QSL**: LoTW (tramite TQSL, la chiave privata resta lì), eQSL, QRZ.com, Club Log, HRDLog.net e HamQTH, con invio automatico e scarico delle conferme. I cinque stati QSL sono sempre scritti, non solo colorati.
+- **Modi digitali**: WSJT-X e JTDX in tempo reale, con i QSO registrati e inviati da soli, pannello dei decodificati e avvisi per ciò che cerchi.
+- **Dati derivati**: paesi DXCC, zone CQ e ITU, locatori, statistiche, award (DXCC e Challenge, WAS, WAC, WAZ, VUCC, IOTA, WPX, WAIP, POTA, SOTA, WWFF e award personalizzati), mappa azimutale e classica con linea grigia, dati di propagazione.
+- **In stazione**: Cluster DX con RBN, invio di spot e comandi, controllo della radio (CAT) e del rotore, keyer CW e voce, modalità gara con Cabrillo, satelliti ed EME, stampa delle etichette QSL in PDF, vista portatile.
+- **Manutenzione**: ricerca dei doppioni, controlli del registro, modifica in blocco con annullamento, QSO eliminati recuperabili.
 - **Temi** Carta e Notte, tutto usabile da tastiera.
 - **Database** SQLite (predefinito) o PostgreSQL, scelto in installazione.
 
@@ -64,7 +66,7 @@ Le immagini usano dati di esempio.
 1. Dalla pagina dell'[ultima versione](https://github.com/iw8ffg/hamdesk-releases/releases/latest) scarica `HamDesk-Setup-<versione>.exe` e `SHA256SUMS.txt`.
 2. **Verifica l'impronta** (consigliato). In PowerShell, nella cartella dei download:
    ```powershell
-   Get-FileHash .\HamDesk-Setup-1.0.5.exe -Algorithm SHA256
+   Get-FileHash .\HamDesk-Setup-1.1.0.exe -Algorithm SHA256
    Select-String -Path .\SHA256SUMS.txt -Pattern 'HamDesk-Setup'
    ```
    I due valori devono essere uguali.
@@ -77,7 +79,7 @@ Le immagini usano dati di esempio.
 
 ## Aggiornamenti
 
-HamDesk controlla da solo, una volta al giorno, se c'è una versione nuova e lo segnala in **Impostazioni → Aggiornamenti** (dalla 1.0.4; il controllo si può spegnere e non invia dati personali). Per aggiornare scarica il nuovo installer ed eseguilo sopra la versione esistente: i dati restano e il database si aggiorna da solo. Prima di aggiornare conviene fare una copia di sicurezza da Impostazioni.
+HamDesk controlla da solo, una volta al giorno, se c'è una versione nuova e lo segnala in **Impostazioni → Aggiornamenti** (dalla 1.0.4; il controllo si può spegnere e non invia dati personali). Dalla 1.1.0 l'aggiornamento si installa dal programma con «Installa e riavvia»: HamDesk scarica l'installer, ne controlla l'impronta SHA-256 e fa prima una copia di sicurezza. Il passaggio alla 1.1.0 si fa ancora a mano: scarica il nuovo installer ed eseguilo sopra la versione esistente. I dati restano e il database si aggiorna da solo.
 
 ## Servizi QSL in breve
 

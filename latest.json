@@ -1,7 +1,10 @@
 {
   "schema": 1,
-  "version": "1.0.5",
-  "published_at": "2026-10-26T22:20:13Z",
-  "notes_it": "HamDesk 1.0.5: nuova grafica con logo e barra di stato; «Premi» diventa «Award» con il WAC e un catalogo da attivare in Impostazioni; Cluster DX con il paese nella riga dello spot e la console sotto la lista; «Riscarica tutte le conferme» immediato; LoTW: motivo dei rifiuti dal registro di TQSL e «Segna come già su LoTW»; QSL manager da un elenco tuo; avviso delle copie di sicurezza corretto.",
-  "page_url": "https://github.com/iw8ffg/hamdesk-releases/releases/tag/v1.0.5"
+  "version": "1.1.0",
+  "published_at": "2026-10-27T20:29:30Z",
+  "notes_it": "HamDesk 1.1.0: WSJT-X e JTDX in tempo reale con pannello dei decodificati e avvisi per ciò che cerchi; HRDLog.net e HamQTH; DXCC Challenge, tabella banda × modo, POTA/SOTA/WWFF, WAIP e award personalizzati; pulizia del registro e modalità gara con Cabrillo; direzione d'antenna, linea grigia, propagazione, rotore e keyer; aggiornamento dal programma e icona nell'area di notifica; correzioni segnalate dall'uso.",
+  "page_url": "https://github.com/iw8ffg/hamdesk-releases/releases/tag/v1.1.0",
+  "installer_url": "https://github.com/iw8ffg/hamdesk-releases/releases/download/v1.1.0/HamDesk-Setup-1.1.0.exe",
+  "installer_sha256": "3903c4ced6f99a52d2ca8b80b7f299d082c9cd02e040c3f68d735a22e38283f9",
+  "installer_size": 53892459
 }
