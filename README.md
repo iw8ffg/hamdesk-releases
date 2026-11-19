@@ -66,7 +66,7 @@ Le immagini usano dati di esempio.
 1. Dalla pagina dell'[ultima versione](https://github.com/iw8ffg/hamdesk-releases/releases/latest) scarica `HamDesk-Setup-<versione>.exe` e `SHA256SUMS.txt`.
 2. **Verifica l'impronta** (consigliato). In PowerShell, nella cartella dei download:
    ```powershell
-   Get-FileHash .\HamDesk-Setup-1.1.0.exe -Algorithm SHA256
+   Get-FileHash .\HamDesk-Setup-1.1.1.exe -Algorithm SHA256
    Select-String -Path .\SHA256SUMS.txt -Pattern 'HamDesk-Setup'
    ```
    I due valori devono essere uguali.

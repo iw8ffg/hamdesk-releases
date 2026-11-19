@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "version": "1.1.0",
-  "published_at": "2026-10-27T20:29:30Z",
-  "notes_it": "HamDesk 1.1.0: WSJT-X e JTDX in tempo reale con pannello dei decodificati e avvisi per ciò che cerchi; HRDLog.net e HamQTH; DXCC Challenge, tabella banda × modo, POTA/SOTA/WWFF, WAIP e award personalizzati; pulizia del registro e modalità gara con Cabrillo; direzione d'antenna, linea grigia, propagazione, rotore e keyer; aggiornamento dal programma e icona nell'area di notifica; correzioni segnalate dall'uso.",
-  "page_url": "https://github.com/iw8ffg/hamdesk-releases/releases/tag/v1.1.0",
-  "installer_url": "https://github.com/iw8ffg/hamdesk-releases/releases/download/v1.1.0/HamDesk-Setup-1.1.0.exe",
-  "installer_sha256": "3903c4ced6f99a52d2ca8b80b7f299d082c9cd02e040c3f68d735a22e38283f9",
-  "installer_size": 53892459
+  "version": "1.1.1",
+  "published_at": "2026-11-19T18:57:59Z",
+  "notes_it": "HamDesk 1.1.1: l'import ADIF riconosce FT4 e gli altri sottomodi scritti come modo (export di QRZ.com) e permette di correggere i record «da correggere» direttamente nell'anteprima, anche più record insieme; pulsanti non più sotto la barra di stato.",
+  "page_url": "https://github.com/iw8ffg/hamdesk-releases/releases/tag/v1.1.1",
+  "installer_url": "https://github.com/iw8ffg/hamdesk-releases/releases/download/v1.1.1/HamDesk-Setup-1.1.1.exe",
+  "installer_sha256": "06ffd51d338942769fb3dd646fc7b81eb6e1645ef00c06a8dadfb4333e813818",
+  "installer_size": 53912696
 }
