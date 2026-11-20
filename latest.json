@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "version": "1.3.0",
-  "published_at": "2026-11-20T02:15:49Z",
+  "published_at": "2026-11-20T06:31:04Z",
   "notes_it": "HamDesk 1.3.0 (contiene anche la 1.2): Previsioni di propagazione verso un paese o un nominativo (ITU-R P.533, ionosonde KC2G, indici NOAA); Nuovo QSO da tastiera, seconda cartella per le copie, Diagnostica con controllo dell'orologio, stati vuoti; intelligenza artificiale facoltativa e spenta di partenza (Claude o modello compatibile OpenAI) con anteprima di ciò che parte, e inserimento vocale locale.",
   "page_url": "https://github.com/iw8ffg/hamdesk-releases/releases/tag/v1.3.0",
   "installer_url": "https://github.com/iw8ffg/hamdesk-releases/releases/download/v1.3.0/HamDesk-Setup-1.3.0.exe",
