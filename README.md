@@ -11,6 +11,8 @@
 <p align="center">
   <a href="https://github.com/iw8ffg/hamdesk-releases/releases/latest"><strong>⬇ Scarica l'ultima versione</strong></a>
   &nbsp;·&nbsp;
+  <a href="manuale/HamDesk-Manuale.pdf"><strong>Manuale (PDF)</strong></a>
+  &nbsp;·&nbsp;
   <a href="#installazione"><strong>Installazione</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/iw8ffg/hamdesk-releases/issues"><strong>Segnala un problema</strong></a>
@@ -23,22 +25,22 @@
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="img/nuovo-qso-carta.png" alt="Nuovo QSO, tema Carta"><br>
-      <sub><b>Nuovo QSO</b> · tema Carta</sub>
+      <img src="img/nuovo-qso-carta.png" alt="Nuovo QSO"><br>
+      <sub><b>Nuovo QSO</b></sub>
     </td>
     <td align="center" width="50%">
-      <img src="img/registro-notte.png" alt="Registro dei collegamenti, tema Notte"><br>
-      <sub><b>Registro</b> · tema Notte</sub>
+      <img src="img/registro-carta.png" alt="Registro dei collegamenti"><br>
+      <sub><b>Registro</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="img/cruscotto-carta.png" alt="Cruscotto, tema Carta"><br>
-      <sub><b>Cruscotto</b> · tema Carta</sub>
+      <img src="img/cruscotto-carta.png" alt="Cruscotto"><br>
+      <sub><b>Cruscotto</b></sub>
     </td>
     <td align="center">
-      <img src="img/mappa-notte.png" alt="Mappa dei collegamenti, tema Notte"><br>
-      <sub><b>Mappa</b> · tema Notte</sub>
+      <img src="img/mappa-carta.png" alt="Mappa dei collegamenti"><br>
+      <sub><b>Mappa</b></sub>
     </td>
   </tr>
 </table>
@@ -48,7 +50,7 @@
   <sub>Dal telefono o dal tablet, sulla rete di casa</sub>
 </p>
 
-Le immagini usano dati di esempio.
+Le immagini usano dati di esempio. Oltre al tema Carta c'è il tema Notte, più scuro.
 
 ## Cosa fa
 
@@ -57,7 +59,7 @@ Le immagini usano dati di esempio.
 - **Modi digitali**: WSJT-X e JTDX in tempo reale, con i QSO registrati e inviati da soli, pannello dei decodificati e avvisi per ciò che cerchi.
 - **Dati derivati**: paesi DXCC, zone CQ e ITU, locatori, statistiche, award (DXCC e Challenge, WAS, WAC, WAZ, VUCC, IOTA, WPX, WAIP, POTA, SOTA, WWFF e award personalizzati), mappa azimutale e classica con linea grigia, dati di propagazione.
 - **In stazione**: Cluster DX con RBN, invio di spot e comandi, controllo della radio (CAT) e del rotore, keyer CW e voce, modalità gara con Cabrillo, satelliti ed EME, stampa delle etichette QSL in PDF, vista portatile.
-- **Manutenzione**: ricerca dei doppioni, controlli del registro, modifica in blocco con annullamento, QSO eliminati recuperabili.
+- **Manutenzione**: ricerca dei doppioni, controlli del registro, modifica in blocco con annullamento, QSO eliminati recuperabili, copie di sicurezza con ripristino dall'interfaccia.
 - **Temi** Carta e Notte, tutto usabile da tastiera.
 - **Database** SQLite (predefinito) o PostgreSQL, scelto in installazione.
 
@@ -66,7 +68,7 @@ Le immagini usano dati di esempio.
 1. Dalla pagina dell'[ultima versione](https://github.com/iw8ffg/hamdesk-releases/releases/latest) scarica `HamDesk-Setup-<versione>.exe` e `SHA256SUMS.txt`.
 2. **Verifica l'impronta** (consigliato). In PowerShell, nella cartella dei download:
    ```powershell
-   Get-FileHash .\HamDesk-Setup-1.3.1.exe -Algorithm SHA256
+   Get-FileHash .\HamDesk-Setup-1.4.0.exe -Algorithm SHA256
    Select-String -Path .\SHA256SUMS.txt -Pattern 'HamDesk-Setup'
    ```
    I due valori devono essere uguali.
@@ -76,6 +78,10 @@ Le immagini usano dati di esempio.
 > **Windows SmartScreen.** Per ora l'installer non è firmato: Windows può mostrare «Windows ha protetto il PC» ed «editore sconosciuto». Dopo aver verificato l'impronta scegli «Ulteriori informazioni», poi «Esegui comunque». Alcuni antivirus possono segnalare per errore il disinstallatore: è un falso positivo dovuto alla mancanza di firma.
 
 **Requisiti**: Windows 10 o 11 a 64 bit. Per LoTW serve [TQSL](https://lotw.arrl.org) installato con il tuo certificato.
+
+## Manuale
+
+Il [manuale d'uso in PDF](manuale/HamDesk-Manuale.pdf) spiega passo per passo installazione, primo QSO, Registro, QSL, award, copie di sicurezza e tutto il resto, con esempi e schermate. Si scarica anche da HamDesk, in **Impostazioni → Informazioni → «Manuale (PDF)»**, ed è allegato a ogni versione.
 
 ## Aggiornamenti
 
